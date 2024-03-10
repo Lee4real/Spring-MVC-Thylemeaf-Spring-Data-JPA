@@ -9,4 +9,4 @@
 <img src="https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/5ac2f44a-cad9-4a48-9bbc-e3f685f153ec" width="500" alt="7">
 
 <h2>Au niveau BD :</h2> <br>
-<img src="https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/408ce2f3-fba8-4407-a743-0613041267ce" width="200" alt="8">
+<img src="https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/408ce2f3-fba8-4407-a743-0613041267ce" width="500" alt="8">
