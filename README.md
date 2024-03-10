@@ -1,4 +1,4 @@
-Captures d'écran pour le test : 
+<h2>Captures d'écran pour le test : </h2> 
 
 ![1](https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/68bcf6ee-6a52-40c6-8613-fae2cbc73835)
 ![2](https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/b492b989-5964-4335-893c-bbf8b6609d8c)
@@ -8,5 +8,5 @@ Captures d'écran pour le test :
 ![6](https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/aa083432-79c3-4c50-a608-80f2d5266913)
 ![7](https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/5ac2f44a-cad9-4a48-9bbc-e3f685f153ec)
 
-Au niveau BD : <br>
+<h2> Au niveau BD : </h2> <br>
 ![8](https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/408ce2f3-fba8-4407-a743-0613041267ce)
