@@ -10,3 +10,5 @@
 
 <h2>Au niveau BD :</h2> <br>
 <img src="https://github.com/TahaManna07/Spring-MVC-Thylemeaf-Spring-Data-JPA/assets/43857744/408ce2f3-fba8-4407-a743-0613041267ce" width="500" alt="8">
+
+Ce projet est développé en Java avec Spring.
