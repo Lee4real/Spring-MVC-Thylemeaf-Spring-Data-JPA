@@ -30,7 +30,6 @@ public class PatientController {
     public String index(Model model, @RequestParam(name ="page",defaultValue = "0") int page,
                                      @RequestParam(name ="size",defaultValue = "5") int size,
                                      @RequestParam(name ="keyword",defaultValue = "") String kw){
-        //Page<Patient> pagePatients = patientRepository.findAll(PageRequest.of(page,size));
         Page<Patient> pagePatients = patientRepository.findByNomContains(kw,PageRequest.of(page,size));
         model.addAttribute("listPatients",pagePatients.getContent());
         model.addAttribute("pages",new int[pagePatients.getTotalPages()]);
@@ -42,8 +41,7 @@ public class PatientController {
     @GetMapping("/delete")
     public String delete(Long id,String keyword,int page){
         patientRepository.deleteById(id);
-        // on va faire la redirection pour afficher
-        // une fois je supprimer , je veux redireger  vers /index , et /index , il va afficher les nves patients
+
         return "redirect:/index?page="+page+"&keyword="+keyword;
     }
     @PostMapping("/addPatient")
@@ -94,9 +92,7 @@ public class PatientController {
     }
     @GetMapping("/editPatient")
     public String editPatient(Model model,@RequestParam(name = "id")  Long id){
-        // on va récuperer le patient de BD ,
         Patient patient = patientRepository.findById(id).get();
-        // si je le trouve , je l'ajoute au model
         model.addAttribute("patient",patient);
         return "editPatient";
     }
